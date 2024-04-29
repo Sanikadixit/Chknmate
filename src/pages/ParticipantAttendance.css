@@ -1,0 +1,48 @@
+.page-container {
+    display: flex;
+    /* flex-direction: column;  */
+    justify-content: center;
+    align-items: center; 
+    margin: 2% 15%;
+    padding: 20px;
+}
+
+.batchNameCls{
+    padding: 20px;
+}
+
+.SelectedBatchName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SelectedBatchName label {
+    margin-right: 5px;
+    width: 120px;
+    text-align: left;
+    margin: 10px;
+}
+
+.SelectedBatchName input {
+    /* margin: 10px; */
+    width: 250px;
+    padding: 8px;
+}
+.showBtn{
+    width: 200px;
+    padding: 10px 20px;
+    margin: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3e5efb;
+    color: white;
+}
+.showBtn:hover{
+    background-color: #0a2ee4;
+}
+
+label{
+    font-weight: bold;
+}

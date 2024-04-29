@@ -1,0 +1,48 @@
+.page-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: 2% 2%;
+    padding: 20px;
+}
+.container-section{
+    justify-content: center;
+}
+.batchNameCls{
+    width: 100%;
+}
+.SelectBatchName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+datalist {
+    position: absolute;
+    width: 300px;
+    max-height: 10% !important;
+    overflow-y: scroll;
+}
+.detailTable table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.detailTable td, .detailTable th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.detailTable tr:hover{
+    background-color: #ddd;
+}
+.detailTable tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.detailTable th{
+    padding: 12px 0;
+    text-align: center;
+    background-color: #04172a;
+    color: white;
+
+}

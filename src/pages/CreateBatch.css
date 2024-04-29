@@ -1,0 +1,96 @@
+.content-container {
+    width: 90%; 
+    padding: 20px; 
+    text-align: center; 
+    /* background-color: #f0e3e3;  */
+    margin-top: 20px;
+ 
+} 
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.popup-inner {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+}
+
+.popup-inner button {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.popup-inputs {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.input-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.radio-row input[type="radio"] {
+    margin-left: 20px;
+}
+
+.input-row label {
+    margin-right: 5px;
+    width: 220px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+
+.content-container .input-row {
+    /* width: calc(100% - 10px); */
+    margin-right: 20px; 
+  }
+
+.popup-inputs .input-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.popup-inputs .input-row label {
+    width: 100px; 
+    margin-right: 10px; 
+}
+
+.popup-inputs .input-row .text-field {
+    width: 200px; 
+}
+
+.submit-button {
+    margin-top: 20px; 
+    text-align: center; 
+    align-items: center;
+}
+
+.batch-day {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+.batch-day label {
+    margin-left: 5px; 
+}
