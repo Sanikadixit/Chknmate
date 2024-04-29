@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #04172a;
+    padding: 20px;
+}
+.logo img{
+    width: 50%;
+}
+.navbar a{
+    color: white;
+    font-size: 18px;
+}
+.dropdown-menu{
+    background-color: #04172a;
+}
+.navbar-toggler-icon{
+    background-image: url(../images/toggle.png);
+}
